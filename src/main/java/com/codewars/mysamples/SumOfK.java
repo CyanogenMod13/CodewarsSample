@@ -3,6 +3,7 @@ package com.codewars.mysamples;
 
 import java.util.List;
 
+@Deprecated
 public class SumOfK {
     public static Integer chooseBestSum(int t, int k, List<Integer> ls) {
         if (ls.size() < k) return null;
@@ -11,7 +12,7 @@ public class SumOfK {
             Integer[] arr = new Integer[k];
             arr[0] = ls.get(i);
             for (int j = 1; j < arr.length; j++) {
-                
+
             }
         }
         return result;
