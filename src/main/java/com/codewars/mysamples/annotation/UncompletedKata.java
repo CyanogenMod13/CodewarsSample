@@ -1,4 +1,4 @@
 package com.codewars.mysamples.annotation;
 
-public @interface Uncompleted {
+public @interface UncompletedKata {
 }
