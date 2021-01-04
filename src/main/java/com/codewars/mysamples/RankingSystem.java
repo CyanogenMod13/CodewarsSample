@@ -6,7 +6,7 @@ public class RankingSystem {
     int progress = 0;
 
     public void incProgress(int rank) {
-        if (rank < -8 || rank > 8 || rank == 0) throw new IllegalArgumentException();
+        if (Math.abs(rank) > 8 || rank == 0) throw new IllegalArgumentException();
         if (this.rank == 8) return;
 
         int difference = rank - this.rank + normal(this.rank, rank);
