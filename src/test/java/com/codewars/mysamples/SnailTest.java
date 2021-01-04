@@ -26,4 +26,14 @@ public class SnailTest {
         int[] a = {1, 2, 3, 1, 4, 7, 7, 9, 8, 7, 7, 4, 5, 6, 9, 8};
         Assert.assertArrayEquals(a, Snail.snail(array));
     }
+
+    @Test
+    public void test2() {
+        int[][] array = {
+                {1, 2},
+                {3, 4}
+        };
+        int[] a = {1, 2, 4, 3};
+        Assert.assertArrayEquals(a, Snail.snail(array));
+    }
 }
