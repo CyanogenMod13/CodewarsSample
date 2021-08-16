@@ -1,6 +1,8 @@
-//https://www.codewars.com/kata/51fda2d95d6efda45e00004e/train/java
 package com.codewars.mysamples;
 
+import com.codewars.mysamples.annotation.URLKata;
+
+@URLKata("https://www.codewars.com/kata/51fda2d95d6efda45e00004e/train/java")
 public class RankingSystem {
     int rank = -8;
     int progress = 0;

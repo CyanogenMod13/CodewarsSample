@@ -1,6 +1,8 @@
-//https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/train/java
 package com.codewars.mysamples;
 
+import com.codewars.mysamples.annotation.URLKata;
+
+@URLKata("https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/train/java")
 public class Snail {
     public static int[] snail(int[][] array) {
         if (array[0].length == 0) return new int[0];

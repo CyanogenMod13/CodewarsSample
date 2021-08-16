@@ -1,6 +1,8 @@
-//https://www.codewars.com/kata/55e2adece53b4cdcb900006c/train/java
 package com.codewars.mysamples;
 
+import com.codewars.mysamples.annotation.URLKata;
+
+@URLKata("https://www.codewars.com/kata/55e2adece53b4cdcb900006c/train/java")
 public class Tortoise {
     public static int[] race(int v1, int v2, int g) {
         if (v1 >= v2) return null;

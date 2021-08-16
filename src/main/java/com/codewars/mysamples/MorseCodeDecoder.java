@@ -1,9 +1,11 @@
-//https://www.codewars.com/kata/54b724efac3d5402db00065e/train/java
 package com.codewars.mysamples;
+
+import com.codewars.mysamples.annotation.URLKata;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@URLKata("https://www.codewars.com/kata/54b724efac3d5402db00065e/train/java")
 public class MorseCodeDecoder {
     public static String decode(String codeMorse) {
         if (codeMorse.isBlank()) return "";
